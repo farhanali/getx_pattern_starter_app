@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:getx_pattern_starter_app/app/modules/details/details_binding.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/post_binding.dart';
 import 'package:getx_pattern_starter_app/app/modules/home/home_binding.dart';
-import 'package:getx_pattern_starter_app/app/modules/details/details_page.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/post_page.dart';
 import 'package:getx_pattern_starter_app/app/modules/home/home_page.dart';
 part 'routes.dart';
 
@@ -14,8 +14,8 @@ class Pages {
     ),
     GetPage(
       name: Routes.DETAILS,
-      page: () => const DetailsPage(),
-      binding: DetailsBinding(),
+      page: () => const PostPage(),
+      binding: PostBinding(),
     ),
   ];
 }

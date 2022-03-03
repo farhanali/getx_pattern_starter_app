@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:getx_pattern_starter_app/app/data/model/post.dart';
-import 'package:getx_pattern_starter_app/app/data/repository/posts_repository.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/data/model/post.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/data/posts_repository.dart';
 
-class DetailsController extends GetxController {
+class PostController extends GetxController {
   // public instance variables goes first
   final PostsRepository repository;
 
@@ -10,7 +10,7 @@ class DetailsController extends GetxController {
   final _post = Post().obs;
 
   // constructors goes after
-  DetailsController({
+  PostController({
     required this.repository,
   });
 

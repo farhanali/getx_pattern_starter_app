@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_pattern_starter_app/app/base/theme/app_text_theme.dart';
-import 'package:getx_pattern_starter_app/app/modules/details/details_controller.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/post_controller.dart';
 
-class CardBottomCustomWidget extends StatelessWidget {
-  const CardBottomCustomWidget({Key? key}) : super(key: key);
+class PostBodyWidget extends StatelessWidget {
+  const PostBodyWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return GetX<DetailsController>(
+    return GetX<PostController>(
       builder: (controller) => Text(
         controller.post.body,
         style: cardTextStyle,

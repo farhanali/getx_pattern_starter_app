@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:getx_pattern_starter_app/app/data/model/post.dart';
-import 'package:getx_pattern_starter_app/app/data/repository/posts_repository.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/data/model/post.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/data/posts_repository.dart';
 import 'package:getx_pattern_starter_app/app/routes/pages.dart';
 
 class HomeController extends GetxController {

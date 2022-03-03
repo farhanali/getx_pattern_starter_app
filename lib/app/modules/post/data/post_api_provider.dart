@@ -1,13 +1,13 @@
 import 'dart:convert';
-import 'package:getx_pattern_starter_app/app/data/model/post.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/data/model/post.dart';
 import 'package:http/http.dart' as http;
 
-class ApiProvider {
+class PostApiProvider {
   static const baseUrl = 'https://jsonplaceholder.typicode.com/';
 
   final http.Client httpClient;
 
-  ApiProvider({
+  PostApiProvider({
     required this.httpClient,
   });
 

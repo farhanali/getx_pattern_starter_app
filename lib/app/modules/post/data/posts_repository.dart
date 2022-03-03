@@ -1,7 +1,7 @@
-import 'package:getx_pattern_starter_app/app/data/provider/api_provider.dart';
+import 'package:getx_pattern_starter_app/app/modules/post/data/post_api_provider.dart';
 
 class PostsRepository {
-  final ApiProvider apiClient;
+  final PostApiProvider apiClient;
 
   PostsRepository({
     required this.apiClient,
